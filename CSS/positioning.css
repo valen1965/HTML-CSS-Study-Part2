@@ -1,0 +1,12 @@
+html {
+  font-size: 62.5%;
+}
+
+.boxes {
+  border: 3px solid lightgray;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+}
