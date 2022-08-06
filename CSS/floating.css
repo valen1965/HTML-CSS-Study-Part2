@@ -2,6 +2,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  margin-right: 10px;
+}
+
 .avatar {
   width: 5rem;
   height: 5rem;
@@ -10,13 +14,20 @@ html {
   margin-right: 0.5rem;
 }
 
+/* thhis class sets floating properties
+to either left or right direction*/
+
 .clear {
   clear: both;
 }
 
 .tweet {
   border: 3px solid lightgray;
+  /*another way to solve floating issue*/
+  overflow: ahidden;
 }
+
+/*solving floating issue*/
 
 .clearfix::after {
   content: "";
