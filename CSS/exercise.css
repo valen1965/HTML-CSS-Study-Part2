@@ -1,0 +1,40 @@
+body {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+}
+
+.box {
+    flex: basis 1rem;
+    flex-grow: 1;
+    flex-shrink: 1 1 5rem;
+    flex: 1;
+    background:black;
+    border: 1px solid black;
+    padding: 1rem;
+    color: red;
+    display: inline-block;
+}
+
+.box-two:nth-of-type(2) {
+    background: dodgerblue;
+}
+
+
+@media screen and (min-width:768px) {
+    .container {
+        flex-direction: row;
+    }
+    .box-two {
+        background: white;
+        flex-direction: row;
+        display:inline-flex;
+        
+    }
+}
